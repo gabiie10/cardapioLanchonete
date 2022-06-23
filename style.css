@@ -1,0 +1,147 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-font:rgb(0, 0, 0);
+    --color-p:rgb(6, 6, 6);
+}
+.carta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 9999999999999999999;
+
+    font-size:3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(178,18,18);
+    width:100vw;
+        height: 100vh;
+    font-size: 1em;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    
+}
+.carta-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.carta img{
+   position: relative;
+   left:-22px;
+    width: 240px;
+    height: 250px;
+}
+.carta .whats{
+    position: relative;
+    top: 7px;
+    margin-top: 22px;
+    width: 30px;
+    height: 30px;
+}
+address{
+    margin-top: 6px;
+}
+
+
+.container{
+    width: 100vw;
+    height: 350vh;
+        margin-top: -100vh;
+    
+
+}
+
+.container-lanches{
+    display: flex;
+    
+    margin-top: 4vh;
+    
+    width: 90vw;
+    height: 39vh;
+}
+.container-pizzas{
+    display: flex;
+    margin-left: 10vw;
+    
+    margin-top: 28vh;
+    position: relative;
+    width: 90vw;
+    height: 39vh;  
+}
+    .banner-pizzas{
+        width: 30vw;
+    height: auto;
+    margin-right: 9vw;
+    
+    opacity: 0;
+    animation-delay: 1s;
+    animation-name: lanches;
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 3px 10px #b7b1b1; 
+    }
+
+
+.banner-lanches{
+    width: 30vw;
+    height: auto;
+    margin-left: 8vw;
+    position: relative;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-name: lanches;
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 3px 10px #b7b1b1;
+}
+.banner-lanches2{
+    width: 22vw;
+    height: 22vw;
+    left: 68vw;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-name: lanches;
+    animation-timing-function:ease-in;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 3px 10px #b7b1b1; 
+}
+.visivel{
+    visibility: visible;
+}
+@keyframes lanches{
+    from{opacity:0;}
+
+    50%{opacity:1;
+        animation-delay: 3s;
+    filter:blur(4px);
+    }
+    100%{
+        opacity: 2;
+        
+    }
+}
+
+
+@keyframes aba{
+    from{
+        font-size:3em;
+
+    }
+    
+to {
+font-size:3em;
+transform:translateY(-100%) ;
+width: 100%;
+
+animation-duration: 13s;
+}
+}
+

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.refris,.sucos{
+    width: 40vw;
+    
+}
+.sucos{
+    margin-right: 6%;
+    margin-left: 11%;
+
+}
+.bebidas{
+    background-image: url(/img/coca.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    height: 100vh;
+    width:95vw;
+    padding: 23px 33px;
+    position: relative;
+    
+}
+.container-bebidas{ top: 308px;
+    
+    position: absolute;
+    width: 90vw;
+    height: 50vh;
+   
+}
+.sub-container-bebidas{ 
+    border-radius: 12px;
+    border: 2px solid white;
+    display: flex;
+   
+    align-items: center;
+    width: 92vw;
+    height: 40vh;
+   
+}
+.container-bebidas header{
+   
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:202px; 
+}
+.container-bebidas header h3{
+    margin-left: 32px;
+    font-size: 2em;
+    font-family:  'Quicksand', sans-serif;
+    color: white;
+}
+.card-bebida{
+    
+    width: auto;
+    height: 8vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.jesus::before{
+    content:"";
+    width: 53px;
+    height: 33px;
+    background-image: url("/img/jesus.png");
+    background-size: cover;
+    
+}
+
+.card-bebida>h3{
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+}
+.card-bebida>h4{
+    color: white;
+}
+
+
+.coca-cola::before{
+    content:"";
+    width: 53px;
+    height: 33px;
+    background-image: url("/img/coca-cola-logo.png");
+    background-size: cover;
+    
+}
+
+.fanta-laranja::before{
+    content:"";
+    width: 53px;
+    height: 33px;
+    background-image: url("/img/fanta-laranja.png");
+    background-size: cover;
+    
+}
+.fanta-uva::before{
+    content:"";
+    width: 53px;
+    height: 33px;
+    background-image: url("/img/fanta-uva.jpg");
+    background-size: cover;
+    
+}
+
+
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.menu{
+    background-image: url("/img/Madeira-pobre.jpg");
+    background-size:cover ;
+
+    width: 80%;
+    height: auto;
+
+    box-shadow: 3px 3px 23px black;
+    border-radius:5px ;
+
+    padding-bottom: 22px;
+    margin-left: 113px;
+    margin-top: 34px;
+    
+}
+.menu header{
+    padding-top: 9px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.menu>header>h2{
+    color: black;
+}
+ul{
+    margin-left: 20%;
+}
+.menu-principal li{
+    
+        width: 50vw;
+        height: auto;
+    
+}
+.menu-principal h3,h4,p{
+    padding-right: 7px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-principal header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-principal p{
+    
+    width: 85%;
+    
+    font-size: 13px;
+    margin-bottom: 3px;
+    margin-left: 9%;
+    
+}
+.estampa{
+    background-image: url(/img/toalha-vermelha.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    padding-top: 33px;
+   
+
+}

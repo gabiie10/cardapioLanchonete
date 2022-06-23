@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamburguer,pizza e pratos dos mais  variados e baratos para matar a fome">
+    <meta name="keyword" content="lanche,hamburguer,barato,almoço,jantar,pizza,suco,refrigerante">
+    <title>D'gust</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+
+
+    <link rel="stylesheet"  href="/style.css">
+    <link rel="stylesheet"  href="/bebidas.css">
+    <link rel="stylesheet"  href="/lanches.css">
+    <link rel="stylesheet"  href="/menu.css">
+    <link rel="stylesheet"  href="/footer.css">
+    <link rel="stylesheet" href="/precos.css">
+    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/slide.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
+   
+</head>
+<body >
+    
+   
+  <div class="carta animate__animated animate__bounceOutUp">
+    <div class="carta-content">
+
+        <img  src="/img/D_gust.png" alt="logo do D'gust"/>
+        <adress><img class="whats" src="/img/whatsapp.png" alt="icone do whats app"/>
+            <sup>(98)</sup>9158-2870</adress>
+    </div>
+  </div> 
+<div class="container">
+
+    <header class="container-header">
+       <h1>D'Gust Art e Sabor</h1> 
+    </header>
+<main>
+<article class="slider">
+    <img src="/img/combo.png" alt="combo do dia">
+    <img   src="/img/especial.png" alt="especial da semana">
+</article>
+ 
+
+    <div class="container-preco">  
+        <header>
+            <h2>Pesquisas por Preço!!</h2>
+        </header>
+        <section class="sub-container-preco">
+            <article class="card-price" id="p-10" >
+                <h3>-10</h3>
+            </article>
+            <article class="card-price">
+                <h3>10</h3>
+            </article>
+            <article class="card-price">
+                <h3>+10</h3>
+            </article>
+            <article class="card-price">
+                <h3>20</h3>
+            </article>
+            <article class="card-price">
+                <h3>+20</h3>
+            </article>
+        </section>   
+    </div>
+    <img  src="/img/whatsapp.png"  style="width: 70px;
+    height: 65px;
+    top: 530px;
+    left: 1275px;
+    z-index: 99;
+    
+    position: fixed;"/>
+    <div class="tabela  animate__animated animate__bounce" id="tabela" >
+            <header>
+                <h2>Preços</h2>
+            </header>
+    <ul>
+        <li> 
+            <header>
+                <h3>Hamburguer simples</h3>
+                <h4> R$9,00</h4>
+            </header>
+            <p>Salada,carne,pao de hamburguer,fatia de queijo e 1 carne bovina  de hamburguer(100kg).</p> 
+        </li>
+        <li>
+            <header>
+                <h3>Sanduiche</h3>
+                <h4> R$6,00</h4>
+            </header>
+            <p>Pão de forma,molho de cenoura,salada e cream chesse.</p>   
+        </li>
+        <li>
+            <header>
+                <h3>Misto Quente</h3>
+                <h4>R$5,00</h4>
+            </header>
+
+            <p>pao de forma ,queijo e presunto.</p>
+        </li>
+        <li>
+            <header>
+                <h3>Pao com Ovo</h3>
+                <h4> R$3,00</h4>
+            </header>
+
+            <p>pao francês,manteiga e ovo .</p>
+        </li>
+        <li>
+            <header>
+                <h3>Cachorro  Quente</h3>
+                <h4> R$5,00</h4>
+            </header>
+
+            <p>pao francês,salsicha e molho de tomate .</p>
+        </li>
+
+        <li>
+            <header>
+                <h3>Batata Frita</h3>
+                <h4> R$5,00</h4>
+            </header>
+
+            <p>batata frita  com  ketchup.</p>
+        </li>
+        <li>
+            <header>
+                <h3>Lasanha</h3>
+                <h4> R$5,00</h4>
+            </header>
+
+            <p>massa de macarrao,queijo e presunto.</p>
+
+        </li>
+    </ul>
+
+    </div>
+
+
+ 
+       <script>              
+            const p_10=document.getElementById('p-10');
+            const tabela=document.getElementById('tabela');
+             function Tabela(){
+                tabela.classList.toggle('ver');
+            
+        }
+             p_10.addEventListener('click',Tabela);
+        </script> 
+    <h2>Lanches:</h2>
+    <section class="container-lanches ">
+        <img src="/img/dica.png" class="dica"
+         alt='icone de interrogação'
+          title="CLique em cada lacuna para receber uma foto ilustrativa do pedido e clique de volta para fechala"/>
+        <ul class="menu-lanches">
+                <li class="pao" id="pao-sup">
+                    <header>
+                        <h3>Hamburguer simples</h3>
+                        <h4> R$9,00</h4>
+                    </header>
+                    <p>Salada,carne,pao de hamburguer,fatia de queijo e 1 carne bovina  de hamburguer(100kg).</p>                   
+                </li>
+                <li class="salada" id="salad">
+                    <header>
+                        <h3>Sanduiche</h3>
+                        <h4> R$6,00</h4>
+                    </header>
+                    <p>Pão de forma,molho de cenoura,salada e cream chesse.</p>               
+                </li>
+                <li class="carne" id="carne">
+                    <header>
+                        <h3>Hamburguer Caseiro</h3>
+                        <h4> R$14,99</h4>
+                    </header>
+
+                    <p>salada,carne,fatia de queijo e 1 carne bovina  de hamburguer caseira(150kg).</p>
+                   
+                </li>
+                <li class="queijo" id="queijo">
+                    <header>
+                        <h3>Misto Quente</h3>
+                        <h4>R$5,00</h4>
+                    </header>
+
+                    <p>pao de forma ,queijo e presunto.</p>
+                   
+                </li>
+                <li class="tomate" id="tomate">
+                    <header>
+                        <h3>Pao com Ovo</h3>
+                        <h4> R$3,00</h4>
+                    </header>
+
+                    <p>pao francês,manteiga e ovo .</p>
+                   
+                </li>
+                <li class="pao" id="pao-middle">
+                    <header>
+                        <h3>Cachorro  Quente</h3>
+                        <h4> R$5,00</h4>
+                    </header>
+
+                    <p>pao francês,salsicha e molho de tomate .</p>
+                   
+                </li>
+                <li class="carne" id="carne2">
+                    <header>
+                        <h3>Macarronada</h3>
+                        <h4> R$14,99</h4>
+                    </header>
+
+                    <p>salada,carne,fatia de queijo e 1 carne bovina  de hamburguer caseira(150kg).</p>
+                   
+                </li>
+                <li class="queijo" id="queijo2">
+                    <header>
+                        <h3>Batata Frita</h3>
+                        <h4> R$5,00</h4>
+                    </header>
+
+                    <p>batata frita  com  ketchup.</p>
+                   
+                </li>
+                <li class="pao" id="pao-sub">
+                    <header>
+                        <h3>Lasanha</h3>
+                        <h4> R$5,00</h4>
+                    </header>
+
+                    <p>massa de macarrao,queijo e presunto.</p>
+                   
+                </li>
+        
+            </ul>
+        <img id="lanche" src="/img/Estilo de pop art de fast-food _ Vetor Grátis.jpg" class="banner-lanches" alt="foto ilustrativa de lanches(batata frita,hamburguer e refrigerante)">   
+        <img src="img/hamburguer-simples.png" class="banner-lanches2 " id="simples" alt="um hamburguer simples,num prato branco,com alface,queijo,carne e cebola roxa">
+        <img src="img/sanduiche.png" class="banner-lanches2 " id="sanduiche" alt="um sanduiche de ao de forma,molho de cenoura e alface">
+        <img src="img/caseiro.png" class="banner-lanches2 " id="caseiro" alt="um hamburguer,num prato branco, com carne caseira,queijo,alface e cebola">
+        <img src="img/misto.png" class="banner-lanches2 " id="misto" alt="um misto quente ,contendo queijo e presunto,em um pao de forma">
+        <img src="img/ovo.png" class="banner-lanches2 " id="ovo" alt="um pao frances com ovo">
+        <img src="img/cachorro.png" class="banner-lanches2 " id="cachorro" alt="um cachorro quente com salsicha,molho de tomate e milho">
+        <img src="img/macarronada.png" class="banner-lanches2 " id="macarronada" alt="uma macarronada,com massa molho de tomate e carne">
+        <img src="img/batata.png" class="banner-lanches2 " id="batata" alt="um pote de batata frita">
+        <img src="img/lasanha.png" class="banner-lanches2 " id="lasanha" alt="uma lasanha com massa de macarrao ,queijo,presunto e carne">
+   
+   
+   
+   <script>
+            const simples=document.getElementById('simples');
+            const  pao_sup=document.getElementById('pao-sup');
+            
+        function paosup(){
+            simples.classList.toggle('visivel');
+        }
+       
+       
+pao_sup.addEventListener('click',paosup);
+        </script>
+
+        <script>              
+            const salad=document.getElementById('salad');
+            const sanduiche=document.getElementById('sanduiche');
+             function Salad(){
+            sanduiche.classList.toggle('visivel');
+        }
+             salad.addEventListener('click',Salad);
+        </script>
+
+        <script>              
+            const carne=document.getElementById('carne');
+            const caseiro=document.getElementById('caseiro');
+             function Carne(){
+            caseiro.classList.toggle('visivel');
+        }
+             carne.addEventListener('click',Carne);
+        </script>
+        <script>              
+            const pao_middle=document.getElementById('pao-middle');
+            const cachorro=document.getElementById('cachorro');
+             function PaoMiddle(){
+            cachorro.classList.toggle('visivel');
+        }
+             pao_middle.addEventListener('click',PaoMiddle);
+        </script>
+
+<script>              
+    const queijo=document.getElementById('queijo');
+    const misto=document.getElementById('misto');
+     function Misto(){
+    misto.classList.toggle('visivel');
+}
+     queijo.addEventListener('click',Misto);
+</script>
+
+<script>              
+    const tomate=document.getElementById('tomate');
+    const ovo=document.getElementById('ovo');
+     function Ovo(){
+    ovo.classList.toggle('visivel');
+}
+     tomate.addEventListener('click',Ovo);
+</script>
+<script>              
+    const carne2=document.getElementById('carne2');
+    const macarronada=document.getElementById('macarronada');
+     function Macarronada(){
+    macarronada.classList.toggle('visivel');
+}
+     carne2.addEventListener('click',Macarronada);
+</script>
+<script>              
+    const queijo2=document.getElementById('queijo2');
+    const batata=document.getElementById('batata');
+     function Batata(){
+    batata.classList.toggle('visivel');
+}
+     queijo2.addEventListener('click',Batata);
+</script>
+
+<script>              
+    const paosub=document.getElementById('pao-sub');
+    const lasanha=document.getElementById('lasanha');
+     function Lasanha(){
+    lasanha.classList.toggle('visivel');
+}
+     paosub.addEventListener('click',Lasanha);
+</script>
+
+
+
+
+       
+    </section>
+    <h2 class="pizzas">Pizzas:</h2>
+    <section class="container-pizzas">
+        
+        <img src="/img/Pizza fast food estilo pop art _ Vetor Grátis.jpg" class="banner-pizzas" alt="foto ilustrativa de lanches(batata frita,hamburguer e refrigerante)">   
+        <ul class="menu-pizzas">
+            <li> 
+                <header>
+                    <h3>Calabresa</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddd</p>
+            </li>
+            <li> 
+                <header>
+                    <h3>Mussarela</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddddddddddddddddddd</p>
+            </li>
+            <li> 
+                <header>
+                    <h3>Portuguesa</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddddddddddddddddddd</p>
+            </li>
+            <li> 
+                <header>
+                    <h3>Pizza Mista</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddddddddddddddddddd</p>
+            </li>
+            <li> 
+                <header>
+                    <h3>Camarao</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddddddddddddddddddd</p>
+            </li>
+            <li> 
+                <header>
+                    <h3>Pizza de Frango</h3>
+                    <h4>R$ 29,00</h4>
+                </header>
+                <p>ddddddddddddddddddd</p>
+            </li>
+        </ul>
+       
+    </section>
+   <article class="bebidas">
+   
+    <section class="container-bebidas">
+        <header >
+            <h3>Refrigerantes</h3>
+            <h3>Sucos/Água</h3>
+                </header>
+        <div class="sub-container-bebidas">  
+
+            <ul class="refris"> 
+                <li class="card-bebida jesus ">
+                    <h3>Jesus</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida coca-cola ">
+                    <h3>Coca-Cola</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida  fanta-laranja ">
+                    <h3>Fanta Laranja</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida  fanta-uva ">
+                    <h3>Fanta Uva</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                
+
+            </ul>
+
+            <ul class="sucos">
+                
+                <li class="card-bebida  suco-laranja ">
+                    <h3>Suco de Laranja </h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida  suco-uva ">
+                    <h3>Suco de Uva</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida  suco-maracuja ">
+                    <h3>Suco de Maracujá </h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+                <li class="card-bebida  agua ">
+                    <h3>Agua Mineral</h3>
+                    <h4>R$ 3,00</h4>
+                </li>
+            </ul>
+        </div>
+   
+
+    </section>
+</article>
+
+
+
+   <article class="estampa">
+    
+   <section class="menu">
+
+        <header>
+          <h2>MENU-Principal</h2>
+        </header>
+        <ul class="menu-principal">
+            <li >
+                <header>
+                    <h3>Peixe no Molho</h3>
+                    <h4>R$4,00</h4>
+                    
+                </header>
+                <p><strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed similique eius nemo odio cum fugit quos autem et? Maxime vero voluptate placeat minus, porro voluptates excepturi facilis eaque possimus magnam!</p>
+
+            </li>
+
+            <li >
+                <header>
+                    <h3>Peixe no Molho</h3>
+                    <h4>R$4,00</h4>
+                    
+                </header>
+                <p><strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed similique eius nemo odio cum fugit quos autem et? Maxime vero voluptate placeat minus, porro voluptates excepturi facilis eaque possimus magnam!</p>
+
+                
+            </li>
+            <li >
+                <header>
+                    <h3>Peixe no Molho</h3>
+                    <h4>R$4,00</h4>
+                    
+                </header>
+                <p><strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed similique eius nemo odio cum fugit quos autem et? Maxime vero voluptate placeat minus, porro voluptates excepturi facilis eaque possimus magnam!</p>
+
+                
+            </li>
+        </ul>
+
+   </section>
+   </article>
+
+
+</main>
+
+<footer>
+    <header>
+        <h4>Aceitamos: </h4>
+            <br>
+            <img  src="/img/pix.webp" alt="logo do pix"/> 
+            <img  src="/img/visa.png" alt="logo do visa"/> 
+            <img  src="/img/elo.png" alt="logo do elo"/> 
+       
+    </header>
+    <address>
+        D'gust<br>
+        Acesse <a href="ssss">Telegram</a><br>
+    Avenida Mahiba azar,3<br>
+        Olho d'água
+    </address>
+</footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.container-preco{ 
+    background-image: url(/img/neon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 242px;
+
+}
+.container-preco header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:48px;
+}
+.container-preco h2{
+
+    color: rgb(71, 232, 31);
+   
+    font-size: 3em;
+    font-family:  'Quicksand', sans-serif;
+
+    height: auto;
+}
+.sub-container-preco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 235px;
+}
+.card-price{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 3px;
+    background-color:green;
+
+    width: calc(100vw/7);
+    height:140px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px;
+    animation-timing-function: ease-in;
+}
+.card-price h3{
+font-family: 'Russo One', sans-serif;
+font-size: 3em;
+padding: 15px;
+
+color: rgb(49, 186, 49);
+color: white;
+}
+
+
+/*####TABELA####*/
+
+
+.tabela{
+    width: 72vw;
+    height: auto;
+    padding-bottom:50px;
+
+    background-image: url(/img/madeira-pobre.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+
+    margin-left: 16vw;
+    margin-top: 20px;
+
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px;
+
+    animation-name: criar;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+     opacity: 0;
+    transform: translateX(-20px);
+
+}
+
+.ver{
+    display: inline-block;
+}
+
+.bx-wrapper{
+    background-color: blue;
+ box-shadow: 0 0 5px rgb(231, 24, 24);
+     border: none;
+}
+
+.tabela>header{
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+.tabela>header>h2{
+    margin-left: -3%;
+    color:var(--color-font);
+}
+.tabela{
+    font-family:  'Quicksand', sans-serif;
+    color: var(--color-font);
+}
+
+@keyframes criar {
+        
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+ .tabela>ul>li:hover{
+    color: rgb(10, 148, 10);
+    letter-spacing: 3px;
+ }

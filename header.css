@@ -1,0 +1,18 @@
+.container-header{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    background-image:url( "/img/madeira-pobre.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: -5px 12px 41px  #d8b078;
+    box-shadow: -5px 12px 41px  #cb9a55;
+    align-items: center;
+    justify-content: center;
+}
+.container-header>h1{
+    font-size: 3em;
+    color: yellow;
+
+    
+}

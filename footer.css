@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-image:url( "/img/madeira-pobre.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    box-shadow:-40px -7px 48px #cb9a55;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+footer header  h4{
+    margin-top: 33px;
+    margin-left: 20%;
+}
+footer header{
+    
+    font-size: 2em;
+}
+footer header img{
+    width: 99px;
+    height: 59px;
+}
+address{
+    font-family: 'Quicksand', sans-serif;
+}
